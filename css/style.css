@@ -1,0 +1,45 @@
+body{
+	background: rgb(255,155,69);
+}
+
+}
+h2{
+	font-family: Arial, Verdana, Sans-serif;
+	text-align: center;
+}
+header{
+	border: 1px solid red;
+	background-color: white;
+	height: 100px;
+	padding: 1em;
+	overflow: hidden;
+}
+
+#logo{
+	margin: 0;
+	padding: .4em;
+}
+.contenedor {
+  background-color: #400f22;
+  color: white;
+  max-width: 100%;
+  height: 400px;
+  padding: 1em;
+  display: flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  /* align-items: stretch; */
+}
+.container__item {
+	 background-color: rgb(249,116,85);
+	 padding: .5em;
+	 box-shadow: 0 0 0 5px white;
+	 height: 100px;
+	}
+	 .container__item:first-child {
+	 background-color:olive;
+	 order:1;
+	 /* align-self: flex-end; */
+	 }
+}
